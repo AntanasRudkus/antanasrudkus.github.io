@@ -1,41 +1,21 @@
-# Setup
-title: Poole
-tagline: The Jekyll Butler
-url: https://getpoole.com
-paginate: 1
-baseurl: ""
-permalink: pretty
+title:               Workingmen's Benevolent Association
+tagline:             'Miners Union'
+description:         'A 19th-century <a href="https://en.wikipedia.org/wiki/Workingmen%27s_Benevolent_Association_of_Schuylkill_County">labor organization</a> that consisted mainly of coal miners.'
+url:                 https://www.eve-wba.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
+
+# About/contact
+author:
+  name:              Bubba Dumptruck
+  url:               https://zkillboard.com/character/2118545592/
+  email:             yomomma@gmail.com
 
 # Gems
 plugins:
-  - jekyll-gist
   - jekyll-paginate
-  - jekyll-seo-tag
-
-# Optimize Jekyll
-exclude:
-  - .editorconfig
-  - .git
-  - .jekyll-cache
-  - Gemfile
-  - Gemfile.lock
-  - LICENSE.md
-  - README.md
-
-sass:
-  sass_dir: _sass
-  style: :compressed
-
-# Options
-
-# Replace this value and uncomment to enable Google Analytics tracking
-# ga_analytics: UA-000000-0
-
-# Specify the author for blog posts
-author:
-  name: Mark Otto
-  url: https://twitter.com/mdo
-  email: markdotto@gmail.com
 
 # Custom vars
-version: 3.0.0
+version:             1.1.0
+google_analytics_id: G-JSN7EPY1XM
